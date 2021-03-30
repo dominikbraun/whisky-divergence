@@ -78,6 +78,21 @@ function renderDivergences(stats) {
     }
 
     $(statsParentSelector).prepend(table);
+    $(statsParentSelector).prepend(createDivergencesHeading());
+}
+
+function createDivergencesHeading() {
+    const heading = `
+    <div class="table-stats">
+		<ul class="stat-icon-list multiline">
+			<li>
+				<div class="title">Greatest Divergences</div>
+				<div class="value">Top 10 Divergences</div>
+			</li>
+        </ul>
+	</div>`
+
+    return heading;
 }
 
 function createTableHeader() {
