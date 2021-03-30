@@ -51,7 +51,7 @@ function readStatsFromRow(row) {
         whisky: children[1].innerHTML,
         avgRating: avgRating,
         userRating: userRating,
-        divergence: Math.abs(difference).toFixed(2),
+        divergence: Math.abs(difference.toFixed(2)),
         isPositive: isPositive,
     };
 }
