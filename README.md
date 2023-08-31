@@ -12,5 +12,6 @@ When viewing the ratings of a user under `Lists` > `Rates`, WhiskyDivergence wil
 1. Download the [Tampermonkey Extension](https://www.tampermonkey.net/) for your browser.
 2. Go to the extension and create a new user script.
 3. Replace the files in the editor with [this script](https://raw.githubusercontent.com/dominikbraun/whisky-divergence/main/whisky-divergence.js?token=AIXBQK35L6N2X4ENW4AQQ53BF5HYS).
+4. Save the file.
 
 **You're ready!** Give it a try and visit [my ratings](https://www.whiskybase.com/profile/dominikbraun/lists/ratings) as an example.
